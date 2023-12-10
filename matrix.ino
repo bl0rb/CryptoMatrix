@@ -73,8 +73,8 @@ void show() {
       x -= width;
     }
 
-    matrix.write(); //Display beschreiben
-    delay(wait);    //Warten für Scroll Geschwindigkeit
+    matrix.write(); //Display write
+    delay(wait);    //wait scroll speed
   }
 }
 
