@@ -20,3 +20,5 @@ Using Arduino with Matrix Display to monitor Crypto
 3. DIN -> D7
 4. CS -> D6
 5. CLK -> D5
+
+![alt text](https://github.com/bl0rb/CryptoMatrix/blob/main/matrix/Matrix_Demo.jpg?raw=true)
