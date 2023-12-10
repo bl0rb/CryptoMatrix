@@ -92,7 +92,7 @@ void loop() {
     
     //Initializing an HTTPS communication using the secure client
     Serial.print("[HTTPS] begin...\n");
-    if (https.begin(*client, "https://api.coingecko.com/api/v3/simple/price?ids=litecoin%2Cbitcoin%2Cterra-luna&vs_currencies=eur&precision=00")) {  // HTTPS
+    if (https.begin(*client, "https://api.coingecko.com/api/v3/simple/price?ids=litecoin%2Cbitcoin%2Cterra-luna&vs_currencies=eur&precision=00")) {  // 'precision' parameter allows to specify price data in full or 0-18 decimals -> https://apiguide.coingecko.com/getting-started/introduction
       Serial.print("[HTTPS] GET...\n");
       // start connection and send HTTP header
       int httpCode = https.GET();
