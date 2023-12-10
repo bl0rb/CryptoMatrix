@@ -11,3 +11,12 @@ Using Arduino with Matrix Display to monitor Crypto
   - <Adafruit_GFX.h>             //charset for Matrix
   - <Max72xxPanel.h>             //Driver MAX7219 for Matrix
   - <ArduinoJson.h>              //JSON Library
+
+
+## How to wire?
+
+1. VCC -> 5V
+2. GND -> GND
+3. DIN -> D7
+4. CS -> D6
+5. CLK -> D5
